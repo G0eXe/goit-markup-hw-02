@@ -12,6 +12,21 @@
 
 /* == HEADER ==  */
 
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+
+.logo-text-header {
+  color: black;
+}
+
 .navigation-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -27,7 +42,7 @@
   color: #2196f3;
 }
 
-.header-contacts {
+.header-mail-link {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
@@ -37,9 +52,76 @@
   color: #757575;
 }
 
-.header-contacts:hover,
-.header-contacts:focus {
+.header-mail-link:hover,
+.header-mail-link:focus {
+  color: #2196f3;
+}
+
+.header-phone-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: #757575;
+}
+
+.header-phone-link:hover,
+.header-phone-link:focus {
   color: #2196f3;
 }
 
 /* == END HEADER == */
+
+/* == FOOTER == */
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+
+  color: #2196f3;
+}
+
+.logo-text-footer {
+  /* color: #ffffff; */
+}
+
+.address-info {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+
+  /* color: #ffffff; */
+}
+
+.footer-mail-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+
+  /* color: rgba(255, 255, 255, 0.6); */
+}
+
+.footer-phone-link {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.7;
+
+  letter-spacing: 0.03em;
+
+  /* color: rgba(255, 255, 255, 0.6); */
+}
+
+/* == END FOOTER == */
