@@ -219,6 +219,145 @@
   overflow: hidden;
 }
 
+.portfolio-button1 {
+  position: absolute;
+  width: 73px;
+  height: 38px;
+  left: 495px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.portfolio-button1:hover,
+.portfolio-button1:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.portfolio-button2 {
+  position: absolute;
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.portfolio-button2:hover,
+.portfolio-button2:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.portfolio-button3 {
+  position: absolute;
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.portfolio-button3:hover,
+.portfolio-button3:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.portfolio-button4 {
+  position: absolute;
+  width: 103px;
+  height: 38px;
+  left: 865px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.portfolio-button4:hover,
+.portfolio-button4:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
+.portfolio-button5 {
+  position: absolute;
+  width: 130px;
+  height: 38px;
+  left: 976px;
+  top: 174px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.portfolio-button5:hover,
+.portfolio-button5:focus {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+
 /* == END PORTFOLIO == */
 
 /* == FOOTER == */
