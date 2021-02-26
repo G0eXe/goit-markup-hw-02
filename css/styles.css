@@ -424,7 +424,7 @@
 }
 
 .portfolio {
-  /* position: absolute; */
+  position: absolute;
   width: 1170px;
   height: 1360px;
   left: 215px;
@@ -708,7 +708,7 @@
 /* == FOOTER == */
 
 .footer {
-  /* position: absolute; */
+  position: absolute;
   width: 1600px;
   height: 252px;
   left: 0px;
