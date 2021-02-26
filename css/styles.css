@@ -154,6 +154,21 @@
 
 /* == END FEATURES == */
 
+/* == WHAT WE ARE DOING == */
+
+.we-doing-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+/* == END WHAT WE ARE DOING == */
+
 /* == TEAM == */
 
 .team {
@@ -177,22 +192,34 @@
   color: #212121;
 }
 
-/* == END TEAM == */
+.team {
+  /* position: absolute;
+  width: 1600px;
+  height: 648px;
+  left: 0px;
+  top: 1449px;
 
-/* == WHAT WE ARE DOING == */
-
-.we-doing-title {
-  font-family: "Roboto", sans-serif;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-
-  color: #212121;
+  background: #f5f4fa; */
 }
 
-/* == END WHAT WE ARE DOING == */
+/* == END TEAM == */
+
+/* == PORTFOLIO == */
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* == END PORTFOLIO == */
 
 /* == FOOTER == */
 
