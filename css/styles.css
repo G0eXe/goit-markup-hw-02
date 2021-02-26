@@ -31,6 +31,10 @@
   color: black;
 }
 
+.nav-list .link.current {
+  color: #2196f3;
+}
+
 .nav-link {
   font-family: var(--main-font);
   font-weight: 500;
