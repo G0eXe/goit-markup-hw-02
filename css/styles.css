@@ -1,3 +1,7 @@
+:root {
+  --main-font: "Roboto", sans-serif;
+}
+
 .link {
   text-decoration: none;
 }
@@ -27,8 +31,12 @@
   color: black;
 }
 
+.navigation-list {
+  display: flex;
+}
+
 .navigation-link {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -43,7 +51,7 @@
 }
 
 .header-mail-link {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -58,7 +66,7 @@
 }
 
 .header-phone-link {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -70,6 +78,10 @@
 .header-phone-link:hover,
 .header-phone-link:focus {
   color: #2196f3;
+}
+
+.contacts-header-list {
+  display: flex;
 }
 
 /* == END HEADER == */
@@ -87,7 +99,7 @@
 }
 
 .hero-title {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -118,7 +130,7 @@
 }
 
 .modal-button-text {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
@@ -135,7 +147,7 @@
 }
 
 .features-item-title {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
@@ -146,7 +158,7 @@
 }
 
 .features-item-description {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -201,7 +213,7 @@
 }
 
 .we-doing-title {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -254,7 +266,7 @@
 }
 
 .team-title {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -314,7 +326,7 @@
 }
 
 .team-item-title {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
@@ -326,7 +338,7 @@
 }
 
 .team-item-position {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: normal;
   font-size: 16px;
   line-height: 1.18;
@@ -430,7 +442,7 @@
   border-radius: 4px;
   cursor: pointer;
 
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -458,7 +470,7 @@
   border-radius: 4px;
   cursor: pointer;
 
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -486,7 +498,7 @@
   border-radius: 4px;
   cursor: pointer;
 
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -514,7 +526,7 @@
   border-radius: 4px;
   cursor: pointer;
 
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -542,7 +554,7 @@
   border-radius: 4px;
   cursor: pointer;
 
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -562,7 +574,7 @@
 /* == PORTFOLIO EXAMPLES== */
 
 .examples-title {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
@@ -573,7 +585,7 @@
 }
 
 .examples-discription {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: normal;
   font-size: 16px;
   line-height: 1.87;
@@ -710,7 +722,7 @@
 }
 
 .address-info {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -721,7 +733,7 @@
 }
 
 .footer-mail-link {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
@@ -737,7 +749,7 @@
 }
 
 .footer-phone-link {
-  font-family: "Roboto", sans-serif;
+  font-family: var(--main-font);
   font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
