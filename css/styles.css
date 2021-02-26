@@ -77,13 +77,13 @@
 /* == HERO == */
 
 .hero {
-  /* position: absolute;
+  /* position: absolute; */
   width: 1600px;
   height: 600px;
   left: 0px;
   top: 80px;
 
-  background: #2f303a; */
+  background: #2f303a;
 }
 
 .hero-title {
@@ -96,7 +96,7 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
 
-  /* color: #ffffff; */
+  color: #ffffff;
 }
 
 .modal-button {
@@ -152,9 +152,49 @@
   color: #757575;
 }
 
+.features-item1 {
+  /* position: absolute; */
+  width: 270px;
+  height: 101px;
+  left: 215px;
+  top: 774px;
+}
+
+.features-item2 {
+  /* position: absolute; */
+  width: 270px;
+  height: 101px;
+  left: 515px;
+  top: 774px;
+}
+
+.features-item3 {
+  /* position: absolute; */
+  width: 270px;
+  height: 101px;
+  left: 815px;
+  top: 774px;
+}
+
+.features-item4 {
+  /* position: absolute; */
+  width: 270px;
+  height: 101px;
+  left: 1115px;
+  top: 774px;
+}
+
 /* == END FEATURES == */
 
 /* == WHAT WE ARE DOING == */
+
+.we-doing {
+  /* position: absolute; */
+  width: 1170px;
+  height: 386px;
+  left: 215px;
+  top: 969px;
+}
 
 .we-doing-title {
   font-family: "Roboto", sans-serif;
@@ -167,18 +207,42 @@
   color: #212121;
 }
 
+.we-doing-img1 {
+  /* position: absolute; */
+  width: 370px;
+  height: 294px;
+  left: 215px;
+  top: 1061px;
+}
+
+.we-doing-img2 {
+  /* position: absolute; */
+  width: 370px;
+  height: 294px;
+  left: 615px;
+  top: 1061px;
+}
+
+.we-doing-img3 {
+  /* position: absolute; */
+  width: 370px;
+  height: 294px;
+  left: 1015px;
+  top: 1061px;
+}
+
 /* == END WHAT WE ARE DOING == */
 
 /* == TEAM == */
 
 .team {
-  /* position: absolute;
+  /* position: absolute; */
   width: 1600px;
   height: 648px;
   left: 0px;
   top: 1449px;
 
-  background: #f5f4fa; */
+  background: #f5f4fa;
 }
 
 .team-title {
@@ -192,14 +256,132 @@
   color: #212121;
 }
 
-.team {
-  /* position: absolute;
-  width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1449px;
+.team-list {
+  /* position: absolute; */
+  width: 1170px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
+}
 
-  background: #f5f4fa; */
+.team-img1 {
+  /* position: absolute; */
+  width: 270px;
+  height: 260px;
+  left: 215px;
+  top: 1635px;
+
+  border-radius: 0px;
+}
+
+.team-img2 {
+  /* position: absolute; */
+  width: 270px;
+  height: 260px;
+  left: 515px;
+  top: 1635px;
+
+  border-radius: 0px;
+}
+
+.team-img3 {
+  /* position: absolute; */
+  width: 270px;
+  height: 260px;
+  left: 815px;
+  top: 1635px;
+
+  border-radius: 0px;
+}
+
+.team-img4 {
+  /* position: absolute; */
+  width: 270px;
+  height: 260px;
+  left: 1115px;
+  top: 1635px;
+
+  border-radius: 0px;
+}
+
+.team-item-title {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+
+  color: #212121;
+}
+
+.team-item-position {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.18;
+
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+
+  color: #757575;
+}
+
+.team-item1 {
+  /* position: absolute; */
+  width: 270px;
+  height: 368px;
+  left: 215px;
+  top: 1635px;
+
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-item2 {
+  /* position: absolute; */
+  width: 270px;
+  height: 368px;
+  left: 815px;
+  top: 1635px;
+
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-item3 {
+  /* position: absolute; */
+  width: 270px;
+  height: 368px;
+  left: 815px;
+  top: 1635px;
+
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-item4 {
+  /* position: absolute; */
+  width: 270px;
+  height: 368px;
+  left: 815px;
+  top: 1635px;
+
+  background: #ffffff;
+
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 /* == END TEAM == */
